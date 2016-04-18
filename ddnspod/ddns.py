@@ -6,7 +6,7 @@ import requests
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(asctime)s, %(name)s, %(levelname)s,  %(message)s')
-fh = logging.FileHandler('~/.ddns.log')
+fh = logging.FileHandler('ddnspod.log')
 fh.setFormatter(formatter)
 logger.addHandler(fh)
 

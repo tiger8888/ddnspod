@@ -2,8 +2,8 @@ from setuptools import find_packages, setup
 
 setup(
     name='ddnspod',
-    version='0.1.0',
-    url='https://github.com/maguowei/ddns',
+    version='0.1.1',
+    url='https://github.com/maguowei/ddnspod',
     license='The MIT License (MIT)',
     author='maguowei',
     author_email='imaguowei@gmail.com',
